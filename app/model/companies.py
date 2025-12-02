@@ -5,8 +5,8 @@ from sqlalchemy.orm import Mapped, mapped_column, relationship
 from app.database.database import Base
 
 if TYPE_CHECKING:
-    from app.models.companys import CompanyModel
-    from app.models.tags import TagModel
+    from app.model.companies import CompanyModel
+    from app.model.tags import TagModel
 
 
 class CompanyModel(Base):
